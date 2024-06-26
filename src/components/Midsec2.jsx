@@ -4,6 +4,7 @@ import card1 from "../../public/card1.svg"
 import card2 from "../../public/card2.svg"
 import card3 from "../../public/card3.svg"
 import card4 from "../../public/card4.svg"
+import flowchart from "../../public/flowchart.png"
 
 
 const Midsec2 = () => {
@@ -11,7 +12,7 @@ const Midsec2 = () => {
 
         <Box maxH="auto" bgColor="black" pb="140px">
         <Box bgColor="black">
-        <Image src='public/images/flowchart.png' w="70%" mx="auto"  ></Image>
+        <Image src={flowchart} w="70%" mx="auto"  ></Image>
         </Box>
         <Flex justifyContent="center"  gap="20px">
             <Image src={card1} maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
