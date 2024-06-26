@@ -54,8 +54,8 @@ const Header1 = () => {
           <InputGroup
             size="lg"
             width="100%"
-            maxWidth={{ base: "300px", sm: "400px", md: "600px", lg: "800px", xl: "1000px" }}
-            bgColor="rgba(1, 1, 1, 1.0)"
+            maxWidth={{ base: "400px", sm:"380px"}}
+            bgColor="rgb(29, 29, 33)"
           >
             <Input
               pr="8rem"
