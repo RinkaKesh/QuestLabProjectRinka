@@ -1,5 +1,10 @@
 import React from 'react'
 import { Image,Box,Flex, HStack } from '@chakra-ui/react'
+import card1 from "../../public/card1.svg"
+import card2 from "../../public/card2.svg"
+import card3 from "../../public/card3.svg"
+import card4 from "../../public/card4.svg"
+
 
 const Midsec2 = () => {
   return (
@@ -9,10 +14,10 @@ const Midsec2 = () => {
         <Image src='public/images/flowchart.png' w="70%" mx="auto"  ></Image>
         </Box>
         <Flex justifyContent="center"  gap="20px">
-            <Image src='public/card1.svg' maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
-            <Image src='public/card2.svg' maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
-            <Image src='public/card3.svg'maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
-            <Image src='public/card4.svg'maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
+            <Image src={card1} maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
+            <Image src={card2} maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
+            <Image src={card3 } maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
+            <Image src= {card4} maxW="300px" minW="300px" border="1px solid" borderColor="white" borderRadius="15px"></Image>
         </Flex>
         </Box>
         

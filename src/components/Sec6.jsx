@@ -1,14 +1,21 @@
 import { Box, Grid, Image, Text } from '@chakra-ui/react';
+import img1 from "../../public/sec6logo1.svg"
+import img2 from "../../public/sec6logo2.svg"
+import img3 from "../../public/sec6logo3.svg"
+import img4 from "../../public/sec6logo4.svg"
+import img5 from "../../public/sec6logo5.svg"
+import img6 from "../../public/sec6logo6.svg"
+
 import React from 'react';
 
 const Sec6 = () => {
   const items = [
-    { imgSrc: 'public/sec6logo1.svg', text1: 'AI Personalization', text2: 'AI-driven personalization enhances user engagement with unique experiences.' },
-    { imgSrc: 'public/sec6logo2.svg', text1: 'Real-Time Insights', text2: 'Utilize our analytics for instant insights on user behavior and app performance.' },
-    { imgSrc: 'public/sec6logo3.svg', text1: 'Seamless SDK Integration', text2: 'Effortlessly integrate with our robust, cross-platform SDKs for maximum compatibility.' },
-    { imgSrc: 'public/sec6logo4.svg', text1: 'Dynamic Content', text2: 'Keep content engaging with AI-powered optimization, adapting to user preferences.' }, 
-    { imgSrc: 'public/sec6logo5.svg', text1: 'Highly Scalable', text2: "Quest's scalable solutions ensure seamless growth without performance compromise." },
-    { imgSrc: 'public/sec6logo6.svg', text1: 'Robust Security', text2: 'Quest ensures security with data protection, compliance, and secure transactions.' }
+    { imgSrc: img1, text1: 'AI Personalization', text2: 'AI-driven personalization enhances user engagement with unique experiences.' },
+    { imgSrc: img2, text1: 'Real-Time Insights', text2: 'Utilize our analytics for instant insights on user behavior and app performance.' },
+    { imgSrc:img3 , text1: 'Seamless SDK Integration', text2: 'Effortlessly integrate with our robust, cross-platform SDKs for maximum compatibility.' },
+    { imgSrc:img4, text1: 'Dynamic Content', text2: 'Keep content engaging with AI-powered optimization, adapting to user preferences.' }, 
+    { imgSrc:img5 , text1: 'Highly Scalable', text2: "Quest's scalable solutions ensure seamless growth without performance compromise." },
+    { imgSrc: img6, text1: 'Robust Security', text2: 'Quest ensures security with data protection, compliance, and secure transactions.' }
   ];
 
   return (
