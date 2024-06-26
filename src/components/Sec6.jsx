@@ -29,8 +29,8 @@ const Sec6 = () => {
         gap={4}
         width={{
           base: '100%',           
-          md: '78%',              
-          lg: '80%'              
+          md: '48%',              
+          lg: '70%'              
         }}
       >
         {items.map((item, index) => (
