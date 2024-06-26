@@ -1,4 +1,5 @@
 import { Box, VStack,Text,Image,UnorderedList,ListItem, Tag } from '@chakra-ui/react'
+import footer_Logo from "../../public/footer logo.png"
 import React from 'react'
 const CustomTag = ({ children, ...props }) => (
     <Tag bg="black" color="white" ml="-5px"  cursor="pointer"  whiteSpace="nowrap" fontSize="15px" colour="white 100" {...props}>
@@ -11,7 +12,7 @@ const Footer = () => {
   return (
     <Box display="flex" justifyContent="space-around" maxH="auto" bgColor="black" p="150px" color="white">
         <Box display="flex" flexDir="column" alignItems="center" gap="30px">
-            <Image src="public/footer logo.png"></Image>
+            <Image src={footer_Logo}></Image>
             <Text>Quest Labs INC</Text>
         </Box>
 

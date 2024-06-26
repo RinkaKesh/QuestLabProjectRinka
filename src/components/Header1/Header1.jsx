@@ -1,11 +1,12 @@
 import React from 'react'
 import { Container, Heading, Text, Box, VStack, Input, Button, InputGroup, InputRightElement, Flex,Image } from '@chakra-ui/react'
-import image from "../../../public/Screenshot 2024-06-25 235528.png"
+import img from "../../../public/heroImage-IehvbV8o.svg"
+import bgimg from "../../../public/Screenshot 2024-06-25 235528.png"
 const Header1 = () => {
   return (
     <>
     <Box maxH="100px" mt="90px" ></Box>
-    <VStack  pt="10px" pb="30px" bgImage={image} 
+    <VStack  pt="10px" pb="30px" bgImage={bgimg} 
     bgPosition="center"
   bgRepeat="repeat"
   >
@@ -33,7 +34,7 @@ const Header1 = () => {
 
       <Text mt="27px" mb="90px" color="white" fontSize="16px" fontWeight="600">No credit card required</Text>
 
-      <Image src="/images/heroImage-IehvbV8o.svg" alt="img" width="1200px" />
+      <Image src={img} alt="img" width="1200px" />
 
     </VStack>
     </>
