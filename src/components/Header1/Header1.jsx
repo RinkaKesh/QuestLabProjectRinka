@@ -6,7 +6,7 @@ import bgimg from "../../../public/Screenshot 2024-06-25 235528.png"
 const Header1 = () => {
   return (
     <>
-      <Box maxH="auto" mt="90px" pt={{base: "50px", sm: "50px", md: "50px", lg: "40px"}} bgColor="rgb(29, 29, 33)"></Box>
+      <Box maxH="auto" mt="90px" pt={{base: "20px", sm: "20px", md: "30px", lg: "40px"}} bgColor="rgb(29, 29, 33)"></Box>
       <VStack
         pt="10px"
         pb="30px"
