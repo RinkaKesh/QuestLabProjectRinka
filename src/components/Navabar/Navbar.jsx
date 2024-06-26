@@ -1,11 +1,12 @@
 import React from 'react'
 import style from './Navbar.module.css'
+import logo from "../../../public/logosvg.svg"
 
 const Navbar = () => {
   return (
     <div className={style.Navbar_contailner}>
       <div className={style.logo_contailner}>
-        <img src="public/images/download (64).svg" alt="logo" />
+        <img src={logo} alt="logo" />
         <p>Quest</p>
       </div>
       <div className={style.menuItems_container}>
