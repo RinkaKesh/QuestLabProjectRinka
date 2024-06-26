@@ -19,7 +19,7 @@ const Sec6 = () => {
   ];
 
   return (
-    <Box display="flex" justifyContent="center" bgColor="black" pt="80px">
+    <Box display="flex" justifyContent="center" bgColor="black" pt="80px" px={{base:"30px"}}>
       <Grid
         templateColumns={{
           base: '1fr',            
@@ -29,12 +29,12 @@ const Sec6 = () => {
         gap={4}
         width={{
           base: '100%',           
-          md: '48%',              
-          lg: '70%'              
+          md: '78%',              
+          lg: '80%'              
         }}
       >
         {items.map((item, index) => (
-          <Box key={index} p={4} borderWidth="1px" borderRadius="20px" display="flex" alignItems="center" flexDir="column" color="white"  sx={{
+          <Box key={index} p={4}  borderWidth="1px" borderRadius="20px" display="flex" alignItems="center" flexDir="column" color="white"  sx={{
             background: 'rgba(11, 3, 23, 1.0)',
             backgroundImage: 'conic-gradient(from 45deg, rgba(11, 3, 23, 1.0), rgba(22, 24, 24, 1.0)'
           }}>
